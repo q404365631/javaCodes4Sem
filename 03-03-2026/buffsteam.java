@@ -9,7 +9,7 @@ class buff {
         FileReader fr = new FileReader("test.txt");
         BufferedReader br = new BufferedReader(fr);
         String s;
-        while ((s = br.readLine()) != null) {
+        while ((s = br.readLine()) != null) {       // br.read() reads everytin int,float,double whereas this reads string only
             System.out.print(s);
         }
 
@@ -17,3 +17,5 @@ class buff {
         fr.close();
     }
 }
+
+// Buffread only works for stringa no number no notin
