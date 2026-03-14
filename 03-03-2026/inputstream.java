@@ -12,7 +12,7 @@ class ipstream1 {
 
             // // sometin is wrin in below code (.................................)
 
-            // while(i = fis.read()) {
+            // while((i = fis.read() != -1 )) {
             //     System.out.print((char)i);
             // }
 
