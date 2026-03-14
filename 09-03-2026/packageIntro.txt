@@ -1,0 +1,17 @@
+#How to create a package?
+
+#Code Example:
+
+package <package name>;
+
+public class abc {
+    public void get() {
+        System.out.print("Hello World");
+    }
+}
+
+// in cmd:
+java -d . abc.java          // creates a folder same name as <package name> inside whis folder a .class file will be present 
+
+
+#To Import
