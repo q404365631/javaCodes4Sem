@@ -12,7 +12,7 @@ class buff3 {
         
         System.err.print("Enter Data: ");
 
-        s = s.nextLine();               // "The method nextLine() is undefined for the type String" error
+        s = s.next();               // "The method nextLine() is undefined for the type String" error same for next()
         
         bos.write(s.getBytes());        // no idea of getBytes or maybe I have but plix someone tell me
         
