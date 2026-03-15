@@ -7,7 +7,7 @@ class innerA {
         }
     }
     public static void main(String[] args) {
-        innerA.inA = new innerA();
+        innerA inA = new innerA();
         innerA.innerB inB = inA.new innerB();
         inB.show();
     }
