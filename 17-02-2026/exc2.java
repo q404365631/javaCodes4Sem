@@ -1,12 +1,14 @@
 import java.io.*;
 
 class exc {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         try {
             int a = 10;
             int b = 0;
             System.out.println("Divide: " +(a/b));
             FileReader fr = new FileReader("noix.txt");     // noix.txt dosnt exists therefore error will come
+
+            fr.close();
         }
         // catch (Exception e) {
         //     System.out.println("Error: " +e);       // this is default incse we dont know exact type of error
