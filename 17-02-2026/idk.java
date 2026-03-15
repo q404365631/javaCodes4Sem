@@ -1,7 +1,7 @@
 import java.io.*;
 
 class exc {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
         throws FileNotFoundException, ArithmeticException, IOException { // throws is only used to declare
             try {
                 // some code
