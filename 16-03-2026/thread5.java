@@ -5,12 +5,12 @@ class xyz extends Thread {
         }
     }
     public void run() {
-        disp(obj);
+        disp(obj);      // obj cannot be resolved to a variable
     }
     public static void main(String[] args) {
         xyz x1,x2;
-        x1 = new xyz("ABC");
-        x2 = new xyz("BCD");
+        x1 = new xyz("ABC");        // The constructor xyz(String) is undefined
+        x2 = new xyz("BCD");        // The constructor xyz(String) is undefined
 
         x1.start();
         x2.start();
