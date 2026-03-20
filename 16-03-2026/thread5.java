@@ -7,7 +7,7 @@ class xyz extends Thread {
             System.out.print("Welcome " +name);
         }
     }
-    public void run() {
+    synchronized public void run() {
         disp(obj);      // obj cannot be resolved to a variable
     }
     public static void main(String[] args) {
