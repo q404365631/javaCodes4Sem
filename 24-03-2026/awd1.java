@@ -1,12 +1,14 @@
-import java.awd.*;
+import java.awt.*;
 
 class xyz extends Frame {
     xyz() {             // constructor
-        SetSize(100,100);
-        SetVisible(true);   // default false
-        SetTitle("Hello");
+        setSize(100,100);
+        setVisible(true);   // default false
+        setTitle("Hello");
     }
     public static void main(String[] args) {
         xyz x = new xyz();
     }
 }
+
+// tis is use of java.awt (not awd) with extending Frame class
