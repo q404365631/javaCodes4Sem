@@ -1,3 +1,9 @@
-public class awt2 {
-    // some code
+// awt without extending
+
+import java.awt.*;
+
+class xyz {
+    public static void main(String[] args) {
+        Frame f = new Frame("First Frame")
+    }
 }
