@@ -13,5 +13,9 @@ class xyz {
         Label l1 = new Label("Name: ");
         l1.setBounds(20, 30,40,30);     // setBounds(x,y,height,width)
         f.add(l1);      // add method fo addin in webpage
+
+        TextField tf = new TextField();
+        tf.setBounds(50,30,40,100);
+        f.add(tf);
     }
 }
