@@ -15,7 +15,8 @@ class xyz {
         f.add(l1);      // add method fo addin in webpage
 
         TextField tf = new TextField();
-        tf.setBounds(50,30,40,100);
+        tf.setBounds(50,30,40,100);     // most hard part of setting area
         f.add(tf);
+        f.setLayout(null);
     }
 }
