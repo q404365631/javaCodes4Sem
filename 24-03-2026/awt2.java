@@ -10,5 +10,8 @@ class xyz {
         f.setVisible(true);         // default false
         f.setTitle("Registration"); // the text wich is written on tab with internet globe icon
         
+        Label l1 = new Label("Name: ");
+        l1.setBounds(20, 30,40,30);
+        f.add(l1);
     }
 }
