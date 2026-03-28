@@ -11,7 +11,7 @@ class xyz {
         f.setTitle("Registration"); // the text wich is written on tab with internet globe icon
         
         Label l1 = new Label("Name: ");
-        l1.setBounds(20, 30,40,30);
-        f.add(l1);
+        l1.setBounds(20, 30,40,30);     // setBounds(x,y,height,width)
+        f.add(l1);      // add method fo addin in webpage
     }
 }
