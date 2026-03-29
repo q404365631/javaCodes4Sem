@@ -18,5 +18,9 @@ class xyz {
         tf.setBounds(50,30,40,100);     // most hard part of setting area
         f.add(tf);
         f.setLayout(null);              // if we are addin positions manually then it shiuld be null
+        
+        Button b = new Button("click");
+        b.setBounds(10,20,50,60);
+        f.add(b);
     }
 }
