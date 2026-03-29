@@ -22,5 +22,9 @@ class xyz {
         Button b = new Button("click");     // its Click or click i have to check
         b.setBounds(10,20,50,60);
         f.add(b);
+
+        b.addActionListener(new addActionListener() {
+            // code
+        });
     }
 }
