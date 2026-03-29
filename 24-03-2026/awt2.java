@@ -19,7 +19,7 @@ class xyz {
         f.add(tf);
         f.setLayout(null);              // if we are addin positions manually then it shiuld be null
         
-        Button b = new Button("click");
+        Button b = new Button("click");     // its Click or click i have to check
         b.setBounds(10,20,50,60);
         f.add(b);
     }
