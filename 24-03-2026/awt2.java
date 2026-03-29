@@ -23,7 +23,7 @@ class xyz {
         b.setBounds(10,20,50,60);
         f.add(b);
 
-        b.addActionListener(new addActionListener() {
+        b.addActionListener(new addActionListener() {   // neds checking of name of method
             // code
         });
     }
