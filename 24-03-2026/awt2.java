@@ -26,7 +26,10 @@ class xyz {
 
         b.addActionListener(new ActionListener() {      // for tis needs a import new package named events
             public void ActionPerformed(ActionEvent e) {
+
+                // in both below l1 will be changed to l2 
                 l1.setText("Welcome");
+                l1.setText(tf.getText());
             }
         });
     }
