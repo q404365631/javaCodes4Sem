@@ -1,6 +1,7 @@
 // awt without extending
 
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 class xyz {
     public static void main(String[] args) {
@@ -23,8 +24,10 @@ class xyz {
         b.setBounds(10,20,50,60);
         f.add(b);
 
-        b.addActionListener(new addActionListener() {   // neds checking of name of method
-            // code
+        b.addActionListener(new ActionListener() {
+            public void ActionPerformed(ActionEvent e) {
+                l1.setText("Welcome");
+            }
         });
     }
 }
