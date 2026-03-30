@@ -1,7 +1,7 @@
 // awt without extending
 
 import java.awt.*;
-import java.awt.event.ActionListener;
+import java.awt.event.*;;
 
 class xyz {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ class xyz {
         b.setBounds(10,20,50,60);
         f.add(b);
 
-        b.addActionListener(new ActionListener() {
+        b.addActionListener(new ActionListener() {      // for tis needs a import new package named events
             public void ActionPerformed(ActionEvent e) {
                 l1.setText("Welcome");
             }
