@@ -7,6 +7,9 @@ class test {
         l1.setBounds(40, 50, 120, 40);
         l1.setBackground(Color.RED);
         TextField user = new TextField();
+        user.setBounds(170, 50, 120, 40);
+
+        f.add(l1);
 
         // code
     }
