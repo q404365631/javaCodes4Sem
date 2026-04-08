@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 class test {
     public static void main(String args) {
@@ -14,6 +15,14 @@ class test {
         f.setLayout(null);
         f.setSize(400,400);
         f.setVisible(true);
+
+        Button b = new Button("Click Me");
+        b.setBounds(125, 80,80,50);
+        b.addActionListener(new ActionListener() {
+            public void ActionPerformed(ActionEvent e) {
+                System.out.print("Hello");
+            }
+        });
 
         // code
     }
