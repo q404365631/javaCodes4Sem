@@ -10,6 +10,10 @@ class test {
         user.setBounds(170, 50, 120, 40);
 
         f.add(l1);
+        f.add(user);
+        f.setLayout(null);
+        f.setSize(400,400);
+        f.setVisible(true);
 
         // code
     }
