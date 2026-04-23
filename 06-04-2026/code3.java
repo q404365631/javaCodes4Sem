@@ -1,12 +1,15 @@
 import java.applet.*;
 import java.awt.*; 
 
-class xyz extends Applet {
+public class xyz extends Applet {
     Button b1;
+    Label L1;
 
-    setLayout(new BorderLayout());
-    add(b1.BorderLayout.NORTH);
-    add(L1.BorderLayout.WEST);
+    public void init() {
+        setLayout(new BorderLayout());
+        b1 = new Button("Click");
+        L1 = new Label("Hello");
+        add(b1, BorderLayout.NORTH);
+        add(L1, BorderLayout.WEST);
+    }
 }
-
-// idk whats happenin
